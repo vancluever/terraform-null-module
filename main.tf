@@ -46,10 +46,10 @@ resource "null_resource" "resource" {
 
 output "null_data_source_id" {
   description = "The `id` of the `null_data_source` data source in this module."
-  value       = "${data.null_data_source.id}"
+  value       = "${data.null_data_source.data.id}"
 }
 
 output "null_resource_id" {
   description = "The `id` of the `null_resource` resource in this module."
-  value       = "${null_resource.id}"
+  value       = "${null_resource.resource.id}"
 }
