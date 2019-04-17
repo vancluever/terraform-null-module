@@ -1,3 +1,7 @@
+## 1.0.2
+
+Updated the usage example and README.
+
 ## 1.0.1
 
 Fixed the module so that it actually works.
