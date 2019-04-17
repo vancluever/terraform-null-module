@@ -1,3 +1,7 @@
+## 1.0.3
+
+More usage example updates.
+
 ## 1.0.2
 
 Updated the usage example and README.

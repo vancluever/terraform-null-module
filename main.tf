@@ -15,7 +15,7 @@
  * 
  *     module "null_module" {
  *       source  = "vancluever/module/null"
- *       version = "1.0.0"
+ *       version = "1.0.3"
  *       input   = "foo"
  *       trigger = "one"
  *     }
