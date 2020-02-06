@@ -14,7 +14,7 @@ Usage Example:
 
     module "null_module" {
       source  = "vancluever/module/null"
-      version = "1.0.0"
+      version = "VERSION"
       input   = "foo"
       trigger = "one"
     }
