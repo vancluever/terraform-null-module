@@ -1,3 +1,7 @@
+## 1.0.4
+
+Minor README version update.
+
 ## 1.0.3
 
 More usage example updates.
