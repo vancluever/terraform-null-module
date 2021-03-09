@@ -1,3 +1,7 @@
+## 2.0.1
+
+Fix docs.
+
 ## 2.0.0
 
 Remove `null_data_source` parts of this module to reduce noise in diffs of
