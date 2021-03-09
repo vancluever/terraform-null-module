@@ -1,3 +1,7 @@
+## 2.0.2
+
+Fix TF 0.11.x compatibility.
+
 ## 2.0.1
 
 Fix docs.
