@@ -14,22 +14,38 @@ Usage Example:
 
     module "null_module" {
       source  = "vancluever/module/null"
-      version = "VERSION"
-      input   = "foo"
+      version = "1.0.3"
       trigger = "one"
     }
+
+## Requirements
+
+No requirements.
+
+## Providers
+
+| Name | Version |
+|------|---------|
+| null | n/a |
+
+## Modules
+
+No Modules.
+
+## Resources
+
+| Name |
+|------|
+| [null_resource](https://registry.terraform.io/providers/hashicorp/null/latest/docs/resources/resource) |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|:----:|:-----:|:-----:|
-| input | The input value for the `null_data_source` data source in this module. | string | `"foo"` | no |
-| trigger | The trigger value for the `null_resource` resource in this module. | string | `"one"` | no |
+|------|-------------|------|---------|:--------:|
+| trigger | The trigger value for the `null_resource` resource in this module. | `string` | `"one"` | no |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| null\_data\_source\_id | The `id` of the `null_data_source` data source in this module. |
 | null\_resource\_id | The `id` of the `null_resource` resource in this module. |
-

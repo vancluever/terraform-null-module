@@ -16,26 +16,14 @@
  *     module "null_module" {
  *       source  = "vancluever/module/null"
  *       version = "1.0.3"
- *       input   = "foo"
  *       trigger = "one"
  *     }
  * 
  */
 
-variable "input" {
-  description = "The input value for the `null_data_source` data source in this module."
-  default     = "foo"
-}
-
 variable "trigger" {
   description = "The trigger value for the `null_resource` resource in this module."
   default     = "one"
-}
-
-data "null_data_source" "data" {
-  inputs = {
-    key = "${var.input}"
-  }
 }
 
 resource "null_resource" "resource" {
@@ -44,12 +32,7 @@ resource "null_resource" "resource" {
   }
 }
 
-output "null_data_source_id" {
-  description = "The `id` of the `null_data_source` data source in this module."
-  value       = "${data.null_data_source.data.id}"
-}
-
 output "null_resource_id" {
   description = "The `id` of the `null_resource` resource in this module."
-  value       = "${null_resource.resource.id}"
+  value       = null_resource.resource.id
 }

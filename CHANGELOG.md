@@ -1,3 +1,8 @@
+## 2.0.0
+
+Remove `null_data_source` parts of this module to reduce noise in diffs of
+consumers on part of the `random` attribute that gets propagated to state.
+
 ## 1.0.4
 
 Minor README version update.
