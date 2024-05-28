@@ -17,6 +17,13 @@
  * 
  */
 
+    module "null_module" {  
+      source  = "vancluever/module/null"
+      version = "2.0.2"
+      trigger = "one"
+    }
+ 
+
 variable "trigger" {
   description = "The trigger value for the `null_resource` resource in this module."
   default     = "one"
