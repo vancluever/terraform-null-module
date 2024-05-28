@@ -34,7 +34,7 @@ No Modules.
 |------|
 | [null_resource](https://registry.terraform.io/providers/hashicorp/null/latest/docs/resources/resource) |
 
-## Inputs
+## Inputs test
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
